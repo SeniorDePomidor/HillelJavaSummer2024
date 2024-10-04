@@ -5,6 +5,7 @@ public class Main {
     public static final double POUNDS_TO_KGS=0.453592;
 
     public static void main(String[] args) {
+        System.out.println("Version 1.0");
         double p=5;
         double kg=pounds_to_kilos(p);
         System.out.printf("%.2f pounds are equals to %.2f kilos%n", p, kg);
